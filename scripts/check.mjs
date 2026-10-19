@@ -15,7 +15,7 @@ for(const a of catalog.items){
  assert.equal(createHash('sha256').update(await readFile(`assets/${a.id}.webp`)).digest('hex'),a.sha256);
 }
 const html=await readFile('site-dist/index.html','utf8');
-assert.ok(html.includes('github:iambean/avatar-atlas#v1.3.0'));
+assert.ok(html.includes('github:iambean/avatar-atlas#v1.3.1'));
 assert.ok(!/(?:href|src)="\/(?!\/)/.test(html),'HTML must work under project subpath');
 assert.ok(!/<(?:script|img)[^>]+src="https?:\/\//i.test(html),'Runtime resources must stay local');
 for(const match of html.matchAll(/(?:src|href)="\.\/([^"?#]*)/g)) await stat('site-dist/'+match[1]);

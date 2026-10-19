@@ -9,16 +9,16 @@
 从 GitHub 安装固定版本，安装一次后即可在不同项目中使用：
 
 ```sh
-npm install --global github:iambean/avatar-atlas#v1.3.0
+npm install --global github:iambean/avatar-atlas#v1.3.1
 ```
 
 也可以在项目目录直接执行一次：
 
 ```sh
-npx --yes github:iambean/avatar-atlas#v1.3.0 init
+npx --yes github:iambean/avatar-atlas#v1.3.1 init
 ```
 
-这两种方式均从 GitHub 获取工具，无需 npm registry 账号。没有 Git 的环境可从 Releases 下载 `.tgz`，再运行 `npm install --global ./avatar-atlas-1.3.0.tgz`。
+这两种方式均从 GitHub 获取工具，无需 npm registry 账号。没有 Git 的环境可从 Releases 下载 `.tgz`，再运行 `npm install --global ./avatar-atlas-1.3.1.tgz`。
 
 ## 在项目中使用
 
@@ -82,7 +82,7 @@ CLI 和接口代码采用 MIT；图片采用 CC BY 4.0。工具自动安装 `LIC
 
 ```sh
 npm test
-npm run build
+npm run build:site
 npm run check
 ```
 

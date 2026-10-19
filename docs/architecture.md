@@ -4,7 +4,7 @@ Avatar Atlas 使用独立 GitHub 仓库 `iambean/avatar-atlas`。仓库提供源
 
 ## 分发与构建
 
-仓库根目录是零运行时依赖的 Node.js 包；`assets/` 包含全部 512px WebP，`catalog.json` 是发布目录的权威索引。`provenance/` 保存创作定义。安装过程没有 prepare 脚本，不构建网站，也不下载完整原图。
+仓库根目录是零运行时依赖的 Node.js 包；`assets/` 包含全部 512px WebP，`catalog.json` 是发布目录的权威索引。`provenance/` 保存创作定义。安装过程没有 npm 会自动识别的 build、prepare 等安装钩子，网站构建命令命名为 build:site，不构建网站，也不下载完整原图。
 
 ```mermaid
 flowchart LR
@@ -32,7 +32,7 @@ flowchart LR
 
 ## 更新兼容
 
-升级至 CLI 1.3.0 后，配置中精确匹配旧官方 Sites 索引的地址自动迁移到 GitHub Pages；显式指定的 `--source` 和其他自定义源保持用户选择。CLI 1.2.0 可继续使用原站点，迁移不删除旧站。
+升级至 CLI 1.3.1 后，配置中精确匹配旧官方 Sites 索引的地址自动迁移到 GitHub Pages；显式指定的 `--source` 和其他自定义源保持用户选择。CLI 1.2.0 可继续使用原站点，迁移不删除旧站。
 
 已有头像 ID 和 WebP 内容保持稳定。下架条目保留本地图片并标记 `retired`，已有引用继续可用，新选择列表隐藏这些条目。索引更新后不由旧安装包静默降级。
 
@@ -45,7 +45,7 @@ flowchart LR
 3. 所有附件就绪后发布 Release。Pages 工作流从对应标签构建并部署；手动运行工作流也可部署选定 ref。
 4. 读回 Pages 部署结果，验证公开索引、图片、下载和真实 GitHub 安装流程。
 
-工具版本与素材索引版本分别管理。当前迁移升级工具至 1.3.0，素材仍为 1.1.0。CI 检查每次推送与 PR；Pages 仅由正式 Release 或手动调度触发。旧站点保留，待迁移完成后可单独决定是否关闭。
+工具版本与素材索引版本分别管理。当前迁移升级工具至 1.3.1，素材仍为 1.1.0。CI 检查每次推送与 PR；Pages 仅由正式 Release 或手动调度触发。旧站点保留，待迁移完成后可单独决定是否关闭。
 
 ## 授权
 

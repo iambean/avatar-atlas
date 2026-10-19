@@ -18,7 +18,7 @@ jobs:
           node-version: 22
       - uses: actions/configure-pages@v5
       - run: npm test
-      - run: npm run build
+      - run: npm run build:site
       - run: npm run check
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,6 +1,6 @@
 {
   "name": "avatar-atlas",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Install and use the Avatar Atlas collection in any project, with local assets and a generated typed API.",
   "type": "module",
   "bin": {
@@ -31,9 +31,9 @@
   "homepage": "https://iambean.github.io/avatar-atlas/#usage",
   "scripts": {
     "test": "node --test test/*.test.mjs",
-    "build": "node scripts/build-site.mjs",
     "check": "node scripts/check.mjs",
-    "release:pack": "node scripts/pack-release.mjs"
+    "release:pack": "node scripts/pack-release.mjs",
+    "build:site": "node scripts/build-site.mjs"
   },
   "keywords": [
     "avatar",
