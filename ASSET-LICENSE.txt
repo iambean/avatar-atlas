@@ -1,0 +1,14 @@
+Avatar Atlas 头像素材库 — CC BY 4.0
+
+本库头像素材由 Avatar Atlas 发布，在发布者可授予的权利范围内，按 Creative Commons Attribution 4.0 International（CC BY 4.0）提供。
+完整授权：https://creativecommons.org/licenses/by/4.0/
+
+你可以将素材用于个人或商业项目，复制、分发、裁剪、修改和再创作。
+使用时请注明 Avatar Atlas、提供素材来源与授权链接，并说明你做过的修改。不得暗示发布者为你的项目背书，也不得对授权允许的使用追加限制。
+
+推荐署名：
+头像素材：Avatar Atlas，CC BY 4.0。来源：https://iambean.github.io/avatar-atlas/
+如有修改，请加上例如“已裁剪 / 已调整背景”。
+
+人物、物品与景色由 OpenAI image_gen 辅助生成；仿真人物为虚构形象。几何素材由代码绘制。源图的导出版本经过统一尺寸与格式优化；不承诺素材具有独占性。
+本说明仅是授权摘要，完整条款以上述 CC BY 4.0 链接为准。

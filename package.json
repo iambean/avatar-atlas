@@ -1,0 +1,52 @@
+{
+  "name": "avatar-atlas",
+  "version": "1.3.0",
+  "description": "Install and use the Avatar Atlas collection in any project, with local assets and a generated typed API.",
+  "type": "module",
+  "bin": {
+    "avatar-atlas": "bin/avatar-atlas.mjs"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.mts",
+      "import": "./index.mjs"
+    },
+    "./manifest.json": "./catalog.json"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "assets",
+    "catalog.json",
+    "index.mjs",
+    "index.d.mts",
+    "README.md",
+    "LICENSE",
+    "ASSET-LICENSE.txt"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "homepage": "https://iambean.github.io/avatar-atlas/#usage",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/check.mjs",
+    "release:pack": "node scripts/pack-release.mjs"
+  },
+  "keywords": [
+    "avatar",
+    "avatars",
+    "cli",
+    "assets",
+    "offline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambean/avatar-atlas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iambean/avatar-atlas/issues"
+  }
+}

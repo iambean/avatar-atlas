@@ -1,0 +1,1182 @@
+{
+  "license": "CC-BY-4.0",
+  "generation": "Built-in image_gen",
+  "jobs": [
+    {
+      "id": "abstract-01",
+      "category": "abstract",
+      "title": "一笔",
+      "tags": [
+        "线描",
+        "双色",
+        "中性"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE original square 1:1 abstract human portrait avatar. Recognizable calm human face and neck drawn with one elegant continuous charcoal line, playful yet refined asymmetrical facial features, simple short hair suggestion, one muted terracotta oval color plane behind part of the face on a warm ivory ground. Exactly three colors: ivory, charcoal, terracotta. Large clear face silhouette readable at 40px, centered with circular crop safe margins. Minimal editorial art with intelligent negative space, no text, no logos, no watermark, no frame, no other objects."
+    },
+    {
+      "id": "abstract-02",
+      "category": "abstract",
+      "title": "纸间",
+      "tags": [
+        "剪纸",
+        "三色",
+        "中性"
+      ],
+      "prompt": "Use case: stylized-concept. ONE original square 1:1 avatar of an abstract but clearly human face and shoulders assembled from tactile cut-paper shapes. Two differently curved shapes form the face, one rounded eyebrow, tiny simple eyes and a subtle smile, short block-shaped hair. Carefully balanced cobalt blue, pale sand and coral, with natural paper-edge texture and minimal shadows. Sophisticated art-school portrait, not random geometric decoration. Plain cream background, generous circular-crop-safe margins, no text, no logos, no watermark, no extra objects."
+    },
+    {
+      "id": "abstract-03",
+      "category": "abstract",
+      "title": "陶然",
+      "tags": [
+        "陶土",
+        "立体",
+        "中性"
+      ],
+      "prompt": "Use case: stylized-concept. ONE original square 1:1 minimalist sculptural human portrait avatar. A small matte clay head and shoulders with simplified expressive human features, soft rounded nose, subtle closed-mouth smile, very simple carved short hair, sculpted rather than photorealistic. Muted sage clay with warm ivory background and a tiny peach cheek accent, soft studio shadow, premium handmade ceramic character. Centered complete head with generous margins for circular crops. No objects, no text, no watermark, no logos."
+    },
+    {
+      "id": "abstract-04",
+      "category": "abstract",
+      "title": "映面",
+      "tags": [
+        "拼色",
+        "三色",
+        "侧影"
+      ],
+      "prompt": "Use case: stylized-concept. ONE original square 1:1 abstract human portrait avatar in sophisticated mid-century editorial style. A clear gentle three-quarter human face with one eye, curved nose and small smiling mouth, built from four or five large smoothly interlocking organic color planes. Muted lavender, deep plum and cream palette only, very subtle print grain, plain cream ground, ample negative space, strong readable face silhouette safe in a circular crop. No letters, no symbols, no logo, no watermark, no collage grid."
+    },
+    {
+      "id": "object-01",
+      "category": "objects",
+      "title": "一杯暖意",
+      "tags": [
+        "咖啡",
+        "陶瓷",
+        "暖调"
+      ],
+      "prompt": "Use case: product-mockup. ONE original square 1:1 avatar image of a small handcrafted terracotta ceramic mug containing coffee, one softly curved handle and a subtle wisp of steam. Three-quarter view, centered isolated object occupying 60 percent of the canvas, muted cream seamless background, warm soft studio light, tactile matte glaze, creative calm still life with clean readable silhouette. No text, no labels, no logo, no watermark, no hands, no extra objects."
+    },
+    {
+      "id": "object-02",
+      "category": "objects",
+      "title": "小叶",
+      "tags": [
+        "盆栽",
+        "绿色",
+        "自然"
+      ],
+      "prompt": "Use case: product-mockup. ONE original square 1:1 avatar of a charming small potted plant with five thick rounded green leaves in a simple warm ivory ceramic pot. Centered isolated still life, leaves and pot fully visible inside generous circular-crop safe margins, soft sage-grey background, warm diffuse studio lighting, gently stylized tactile realism, balanced clean silhouette readable at tiny sizes. No text, no logos, no watermark, no people, no extra objects."
+    },
+    {
+      "id": "object-03",
+      "category": "objects",
+      "title": "拾光",
+      "tags": [
+        "相机",
+        "复古",
+        "冷调"
+      ],
+      "prompt": "Use case: product-mockup. ONE original square 1:1 avatar image of an unbranded charming vintage compact camera in muted dusty blue and warm ivory, one large circular dark lens, simple rounded rectangular body. Slight three-quarter angle, whole camera centered with generous margins, pale warm grey background, soft studio light, beautiful tactile materials, restrained retro design, clear silhouette readable at small size. No lettering or markings, no logo, no watermark, no brand resemblance, no hands, no other objects."
+    },
+    {
+      "id": "object-04",
+      "category": "objects",
+      "title": "慢读",
+      "tags": [
+        "书本",
+        "阅读",
+        "暖调"
+      ],
+      "prompt": "Use case: stylized-concept. ONE original square 1:1 avatar of a small stack of two closed cloth-bound books with a single rust-colored ribbon bookmark, sage-green top book and warm beige bottom book, no writing on covers or spines. Slight elevated three-quarter view, centered compact still life with generous margins, warm ivory background, soft gentle light, tactile illustrated realism with quiet personality. No text, no logo, no watermark, no hands, no other objects."
+    },
+    {
+      "id": "landscape-01",
+      "category": "landscapes",
+      "title": "山湖",
+      "tags": [
+        "山",
+        "湖泊",
+        "宁静"
+      ],
+      "prompt": "Use case: photorealistic-natural. ONE original square 1:1 landscape avatar photograph: a serene alpine lake reflecting layered mountains at early morning, a subtle line of dark pine trees along the shore, soft pale blue sky and gentle mist. Restrained slate blue and soft sage palette, clear bold composition legible in a 40px circle, one central mountain peak inside the central safe area, natural light, no dramatic oversaturation, no buildings, no people, no text, no logos, no watermark."
+    },
+    {
+      "id": "landscape-02",
+      "category": "landscapes",
+      "title": "林间",
+      "tags": [
+        "森林",
+        "雾",
+        "绿色"
+      ],
+      "prompt": "Use case: photorealistic-natural. ONE original square 1:1 landscape avatar photograph: a tranquil misty forest with a softly curving narrow path leading between tall trees, dappled morning light, muted moss green and warm grey palette. A simple inviting composition with a clear central path and spacious atmospheric depth, readable when cropped to a small circle, gentle realism, no people, no buildings, no text, no logo, no watermark."
+    },
+    {
+      "id": "landscape-03",
+      "category": "landscapes",
+      "title": "海岸",
+      "tags": [
+        "海",
+        "日出",
+        "暖调"
+      ],
+      "prompt": "Use case: photorealistic-natural. ONE original square 1:1 landscape avatar photograph: calm turquoise sea and a softly curved sandy cove viewed from a low coastal hill at sunrise, a pale apricot sky with a small low sun and distant hazy headland. Restrained pastel colors, clean horizon and simple bold coast shapes for a tiny circular avatar, peaceful natural light, no people, no boats, no buildings, no text, no watermark."
+    },
+    {
+      "id": "landscape-04",
+      "category": "landscapes",
+      "title": "丘野",
+      "tags": [
+        "草地",
+        "丘陵",
+        "自然"
+      ],
+      "prompt": "Use case: stylized-concept. ONE original square 1:1 painterly landscape avatar: three gentle rolling green hills with one small rounded tree on the central ridge, quiet warm cream sky and a soft low golden sun. Contemporary gouache editorial landscape, tactile but restrained texture, sage and olive greens with muted warm yellow, generous composition and clear silhouette readable as a 40px circular avatar. No people, no houses, no text, no logo, no watermark."
+    },
+    {
+      "id": "abstract-05",
+      "category": "abstract",
+      "title": "琉光",
+      "tags": [
+        "玻璃",
+        "光影",
+        "蓝金"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. An abstract androgynous face assembled from a few curved frosted-glass planes in deep cobalt, pale aqua and honey amber. Three-quarter sculptural profile, translucent overlapping forms and refracted soft light on a cream studio background. Fine glass edges, one simple eye shape, understated collectible-art object; avoid a realistic face. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "abstract-06",
+      "category": "abstract",
+      "title": "墨隐",
+      "tags": [
+        "水墨",
+        "留白",
+        "黑白"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. A contemplative abstract human profile suggested by bold black sumi ink brushstrokes and large intentional negative space on warm rice paper. One decisive sweeping head contour, one eye mark, irregular dry brush edges, high contrast asymmetrical composition with generous breathing room. Contemporary abstract ink artwork, not a detailed portrait. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "abstract-07",
+      "category": "abstract",
+      "title": "织面",
+      "tags": [
+        "纤维",
+        "编织",
+        "暖调"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. An abstract human face formed as a tactile woven tapestry relief with chunky ivory wool, rust-orange yarn and muted midnight-blue threads. Asymmetric oval silhouette, a single arched eyebrow, long nose and small mouth expressed through raised loops and embroidered lines. Soft gallery side lighting, clean sand background, handcrafted textile art. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "abstract-08",
+      "category": "abstract",
+      "title": "点阵",
+      "tags": [
+        "半调",
+        "版画",
+        "黑白"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. A bold abstract front-facing portrait made from large black halftone dots and clean white cutout areas on a pale warm grey background. Graphic risograph poster sensibility, asymmetrical simplified eyes and nose, clearly recognizable head silhouette, a single muted red circular cheek accent. Crisp high-contrast iconic composition, no lettering. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "abstract-09",
+      "category": "abstract",
+      "title": "木语",
+      "tags": [
+        "木雕",
+        "层叠",
+        "自然"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. An abstract gender-neutral mask carved from layered pale maple and dark walnut wood. Smooth sculptural oval head with an offset nose ridge, two subtle recessed eyes, and expressive woodgrain. Three-quarter view floating above a muted olive background, soft natural light, minimalist handcrafted wood sculpture, calm expression. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "abstract-10",
+      "category": "abstract",
+      "title": "流形",
+      "tags": [
+        "曲线",
+        "渐变",
+        "紫粉"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE polished original square 1:1 standalone avatar artwork. An elegant abstract face described by a single wide flowing satin ribbon folded into a head silhouette, brow, nose and chin. Muted plum and blush pink with subtle gradient light, a clean pale lavender background. Surreal fluid 3D sculpture with broad simple shapes, gentle balanced form, substantial negative space, no realistic skin. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-05",
+      "category": "objects",
+      "title": "微灯",
+      "tags": [
+        "台灯",
+        "暖光",
+        "黄色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. A single small sculptural mushroom-shaped desk lamp, warm mustard enamel dome and short thick base, softly glowing warm light, centered on a pale grey-blue seamless studio backdrop. Beautiful tactile product photograph, three-quarter view, entire lamp visible with generous margins, no furniture or clutter. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-06",
+      "category": "objects",
+      "title": "听见",
+      "tags": [
+        "耳机",
+        "音乐",
+        "深色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. One pair of elegant unbranded over-ear headphones, deep charcoal headband and muted burgundy ear cushions, arranged upright as an arch on a warm ivory seamless background. Premium matte material and soft studio shadows, centered front three-quarter view, complete object with generous margins, simple iconic silhouette. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-07",
+      "category": "objects",
+      "title": "折愿",
+      "tags": [
+        "折纸",
+        "纸鹤",
+        "蓝色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. One beautiful origami crane folded from muted indigo-blue paper, clear precise folds and two uplifted wings. Isolated on a pale peach background with delicate shadows, three-quarter elevated view, complete bird with generous margins. Fine paper texture, serene minimalist still-life photograph, no string or decoration. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-08",
+      "category": "objects",
+      "title": "潮音",
+      "tags": [
+        "贝壳",
+        "纹理",
+        "浅色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. One naturally spiraled cream and blush seashell, with distinct sculptural ribs and curved opening, positioned upright at a gentle angle on a muted seafoam background. Macro still-life photography with soft diffused light, complete shell centered with space around it, tactile natural texture, no beach sand or additional objects. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-09",
+      "category": "objects",
+      "title": "青梨",
+      "tags": [
+        "水果",
+        "清新",
+        "绿色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. One fresh green pear with a small curved brown stem and one delicate leaf, subtle speckled skin, standing alone on a muted lilac seamless studio backdrop. Refined still-life photograph with directional daylight and a soft oval shadow. Entire pear in frame with generous margins, elegant asymmetric silhouette. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "object-10",
+      "category": "objects",
+      "title": "滴答",
+      "tags": [
+        "时钟",
+        "复古",
+        "红色"
+      ],
+      "prompt": "Use case: product-mockup. Create ONE polished original square 1:1 standalone avatar artwork. One small vintage twin-bell alarm clock in muted brick red enamel, cream clock face with simple dark tick marks and two hands only, no numbers or brand text. Centered on a pale warm cream studio background, front three-quarter view, entire clock visible with spacious margins, matte tactile photography. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-05",
+      "category": "landscapes",
+      "title": "沙脊",
+      "tags": [
+        "沙漠",
+        "弧线",
+        "暖调"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. A cinematic natural landscape photograph of smooth terracotta desert dunes at golden hour. One strong sweeping S-shaped ridge through the center, deep violet-brown shadows and glowing sand, pale simple sky. Vast empty calm, minimal detail, no people, roads or buildings. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-06",
+      "category": "landscapes",
+      "title": "雪原",
+      "tags": [
+        "雪地",
+        "孤树",
+        "冷调"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. A quiet winter landscape photograph: one small dark evergreen in the middle of rolling pristine white snowfields, distant misty blue hills, soft overcast light. Strong clean silhouettes and broad negative space, airy cool white and icy blue palette, no footprints or buildings. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-07",
+      "category": "landscapes",
+      "title": "飞瀑",
+      "tags": [
+        "瀑布",
+        "岩壁",
+        "水流"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. A beautiful narrow waterfall descending through dark basalt cliffs into a small turquoise pool. Lush moss framing the rocks, soft long-exposure water, strong vertical cascade placed centrally and fully visible, natural atmospheric photography, secluded peaceful landscape, no people or structures. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-08",
+      "category": "landscapes",
+      "title": "竹影",
+      "tags": [
+        "竹林",
+        "东方",
+        "绿色"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. A tranquil bamboo grove in soft morning mist, slender upright jade-green bamboo stems spaced rhythmically, a soft sunlit clearing in the center, sparse delicate leaves framing the top. Refined natural landscape photography, layered luminous green atmosphere, no people, no manmade objects. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-09",
+      "category": "landscapes",
+      "title": "星眠",
+      "tags": [
+        "星空",
+        "夜色",
+        "山峦"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. A still night landscape photograph with a low dark mountain silhouette, a deep midnight-blue sky filled with restrained fine stars, a subtle luminous Milky Way arc crossing above the central peak. No huge moon, no buildings, no people, no artificial glow; quiet, spacious and credible night photography. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "landscape-10",
+      "category": "landscapes",
+      "title": "田阶",
+      "tags": [
+        "梯田",
+        "水面",
+        "层次"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE polished original square 1:1 standalone avatar artwork. Aerial landscape photograph of graceful East Asian flooded rice terraces at dawn, layered curved contour bands reflecting soft peach sky and muted teal hills. Clear elegant rhythmic shapes, a central winding reflective water band, atmospheric but uncluttered composition, no people or buildings. Important forms must remain clear at small icon sizes and inside the central 75 percent for circular cropping. Full-bleed square background. No text, no logos, no watermark, no border, no collage, no extra unrelated objects."
+    },
+    {
+      "id": "portrait-realistic-01",
+      "category": "realistic",
+      "title": "晴朗",
+      "age": 20,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "学习与探索",
+      "temperament": "灵动开朗",
+      "approvedSample": true,
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: a 20-year-old Chinese woman with a softly round face, subtly asymmetric lively eyes, a small broad-tipped nose, a few very faint natural freckles, a short straight black bob tucked behind one ear and irregular soft bangs. She wears a plain mustard-yellow knitted crewneck with a small area of a denim overall strap visible. Her shoulders turn slightly left while she glances back at the camera, spontaneous joyful tooth-showing laughter rather than a formal smile; clearly an adult university student. Bright soft window light, pale sage and warm cream defocused campus interior. Natural, approachable and playful, no glamour styling.",
+      "tags": [
+        "中国人形象",
+        "20 岁",
+        "女",
+        "学习与探索",
+        "灵动开朗"
+      ]
+    },
+    {
+      "id": "portrait-realistic-02",
+      "category": "realistic",
+      "title": "踏实",
+      "age": 29,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "手作与制造",
+      "temperament": "沉静可靠",
+      "approvedSample": true,
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: a 29-year-old Chinese man with a broad square face, warm lightly sun-tanned wheat complexion, a prominent slightly broad nose, small expressive eyes, strong jaw and clean-shaven face. Practical short black hair with cropped sides, slightly uneven natural top. Plain faded indigo cotton work jacket open over an off-white shirt, no uniform branding. Relaxed upper body angled slightly right, calm direct attentive gaze and a very subtle close-mouthed half-smile; a competent hands-on maker or everyday service professional, modest and grounded. Background softly blurred cool grey workshop wall, natural side light. Preserve age 29 without exaggerating wrinkles.",
+      "tags": [
+        "中国人形象",
+        "29 岁",
+        "男",
+        "手作与制造",
+        "沉静可靠"
+      ]
+    },
+    {
+      "id": "portrait-realistic-03",
+      "category": "realistic",
+      "title": "笃定",
+      "age": 36,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "技术与工程",
+      "temperament": "专注严谨",
+      "approvedSample": true,
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: a 36-year-old Chinese woman with an elongated angular oval face, defined cheekbones, straight dark brows and alert narrow eyes behind understated thin rectangular spectacles. Straight dark hair neatly tied in a low ponytail, no bangs, realistic minimal makeup. Soft slate-blue button-down shirt with sleeves not in frame, dark navy practical jacket, no tie or badges. She sits upright with shoulders three-quarter toward left, face turned toward the camera, composed thoughtful expression, lips naturally at rest, quietly confident. Pale grey-blue softly defocused engineering studio background and cool window light. A distinct intelligent individual, natural adult skin rather than airbrushed or aged.",
+      "tags": [
+        "中国人形象",
+        "36 岁",
+        "女",
+        "技术与工程",
+        "专注严谨"
+      ]
+    },
+    {
+      "id": "portrait-realistic-04",
+      "category": "realistic",
+      "title": "致知",
+      "age": 21,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "学习与探索",
+      "temperament": "安静好学",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 21. A slender oval face, fair warm skin, straight short black fringe and fine round metal glasses. Plain forest-green polo shirt; a reserved small smile with curious eyes, face three-quarter to the right. Soft blurred library bookshelves in neutral colors.",
+      "tags": [
+        "中国人形象",
+        "21 岁",
+        "男",
+        "学习与探索",
+        "安静好学"
+      ]
+    },
+    {
+      "id": "portrait-realistic-05",
+      "category": "realistic",
+      "title": "轻风",
+      "age": 23,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "运动与户外",
+      "temperament": "明快爽朗",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 23. An athletic broad-cheeked face, warm sun-tanned skin, almond eyes and dark hair in a high ponytail. Plain muted coral athletic crewneck, energetic open smile, shoulders angled left, face in sunlight. Soft pale blue outdoor sky and greenery bokeh.",
+      "tags": [
+        "中国人形象",
+        "23 岁",
+        "女",
+        "运动与户外",
+        "明快爽朗"
+      ]
+    },
+    {
+      "id": "portrait-realistic-06",
+      "category": "realistic",
+      "title": "跃动",
+      "age": 27,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "运动与户外",
+      "temperament": "热情自信",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 27. A lean long face, dark wheat skin, slightly broad nose, close-cut naturally curly black hair, no glasses or beard. Unbranded yellow-green lightweight sports windbreaker. Upright relaxed head, wide genuine laughing smile, soft defocused park background.",
+      "tags": [
+        "中国人形象",
+        "27 岁",
+        "男",
+        "运动与户外",
+        "热情自信"
+      ]
+    },
+    {
+      "id": "portrait-realistic-07",
+      "category": "realistic",
+      "title": "新意",
+      "age": 22,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "创意与表达",
+      "temperament": "俏皮独立",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 22. A small heart-shaped face, medium warm skin, asymmetric chin-length black bob with a subtle burgundy tint at the ends. Loose plum overshirt with a cream neckline. One raised eyebrow and amused close-mouthed smile, a gentle head tilt toward left. Blurred pale peach creative studio.",
+      "tags": [
+        "中国人形象",
+        "22 岁",
+        "女",
+        "创意与表达",
+        "俏皮独立"
+      ]
+    },
+    {
+      "id": "portrait-realistic-08",
+      "category": "realistic",
+      "title": "墨白",
+      "age": 26,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "创意与表达",
+      "temperament": "随性温和",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 26. A narrow oblong face, medium-light skin, slightly hooked nose, shoulder-length straight black hair tucked behind the ears and a tiny neat goatee. Oatmeal linen artist shirt, no glasses. Slightly sideways face and warm relaxed closed-mouth smile, soft sunlit white studio wall.",
+      "tags": [
+        "中国人形象",
+        "26 岁",
+        "男",
+        "创意与表达",
+        "随性温和"
+      ]
+    },
+    {
+      "id": "portrait-realistic-09",
+      "category": "realistic",
+      "title": "精研",
+      "age": 33,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "技术与工程",
+      "temperament": "专注严谨",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 33. A distinct narrow long face, prominent straight brows, small steady eyes, medium skin, neatly swept short black hair, clean-shaven, no glasses. Plain pale-blue utility shirt with open collar. Almost front-on attentive expression with lips at rest. Blurred engineering studio with a faint unmarked metal structure.",
+      "tags": [
+        "中国人形象",
+        "33 岁",
+        "男",
+        "技术与工程",
+        "专注严谨"
+      ]
+    },
+    {
+      "id": "portrait-realistic-10",
+      "category": "realistic",
+      "title": "明晰",
+      "age": 30,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "商业与办公",
+      "temperament": "自信干练",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 30. A long oval face, high cheekbones, medium-light skin, expressive thick eyebrows and shoulder-length loose dark waves. Simple warm-grey blazer over an ivory top, no glasses or jewelry. Shoulders turned right, direct assured eyes and a restrained friendly smile. Soft window-lit modern office bokeh.",
+      "tags": [
+        "中国人形象",
+        "30 岁",
+        "女",
+        "商业与办公",
+        "自信干练"
+      ]
+    },
+    {
+      "id": "portrait-realistic-11",
+      "category": "realistic",
+      "title": "沉稳",
+      "age": 40,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "商业与办公",
+      "temperament": "沉着包容",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 40. A broad rounded face, medium tan skin, a shaved bald head, neat short stubble and soft lively eyes. Navy collarless blazer over a charcoal knit shirt. Relaxed upright pose and a warm easy smile with slight natural eye creases, clearly age forty not elderly. Neutral softly blurred office background.",
+      "tags": [
+        "中国人形象",
+        "40 岁",
+        "男",
+        "商业与办公",
+        "沉着包容"
+      ]
+    },
+    {
+      "id": "portrait-realistic-12",
+      "category": "realistic",
+      "title": "和煦",
+      "age": 25,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "生活服务",
+      "temperament": "温柔亲切",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 25. A petite oval face, light warm skin, natural fuller lips, a straight shoulder-length dark bob and wispy side fringe. Plain dusty-rose round-collar blouse, no logos or badge. A gentle welcoming smile, soft eye contact, head very slightly turned right. Warm creamy indoor daylight.",
+      "tags": [
+        "中国人形象",
+        "25 岁",
+        "女",
+        "生活服务",
+        "温柔亲切"
+      ]
+    },
+    {
+      "id": "portrait-realistic-13",
+      "category": "realistic",
+      "title": "热忱",
+      "age": 32,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "生活服务",
+      "temperament": "开朗热心",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 32. A sturdy round face, broad cheeks and warm brown Chinese complexion, short dark hair, clean-shaven, no glasses. A simple brown canvas apron over an off-white T-shirt, upper chest only. A hearty spontaneous tooth-showing laugh with crinkled eyes, head tilted slightly back. Soft blurred cafe interior with no writing.",
+      "tags": [
+        "中国人形象",
+        "32 岁",
+        "男",
+        "生活服务",
+        "开朗热心"
+      ]
+    },
+    {
+      "id": "portrait-realistic-14",
+      "category": "realistic",
+      "title": "远路",
+      "age": 28,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "物流与出行",
+      "temperament": "利落可靠",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 28. A wide angular face, sun-tanned skin, strong brows, dark short hair under a simple soft grey cap with no branding. Muted teal utility windbreaker with a small unmarked reflective piping detail. Three-quarter head turned left, calm alert eyes and a faint half-smile. Blurred grey urban morning backdrop.",
+      "tags": [
+        "中国人形象",
+        "28 岁",
+        "女",
+        "物流与出行",
+        "利落可靠"
+      ]
+    },
+    {
+      "id": "portrait-realistic-15",
+      "category": "realistic",
+      "title": "疾风",
+      "age": 24,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "物流与出行",
+      "temperament": "乐观有劲",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 24. A slim elongated face, warm wheat complexion, small bright eyes and black hair under a plain grey bicycle helmet. Burnt-orange outdoor jacket without branding. A cheerful friendly tooth-showing grin, shoulders slightly angled, full helmet visible with generous margins. Diffused sunlit street bokeh, no vehicles or text.",
+      "tags": [
+        "中国人形象",
+        "24 岁",
+        "男",
+        "物流与出行",
+        "乐观有劲"
+      ]
+    },
+    {
+      "id": "portrait-realistic-16",
+      "category": "realistic",
+      "title": "匠心",
+      "age": 34,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "手作与制造",
+      "temperament": "认真坚定",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 34. A broad face with defined cheekbones, natural medium tan skin, strong nose and black hair tied in a practical loose bun. Simple moss-green canvas apron over a dark work shirt. Direct focused gaze and a subtle confident half-smile, upright posture. Blurred warm wood workshop wall, no tools held in frame.",
+      "tags": [
+        "中国人形象",
+        "34 岁",
+        "女",
+        "手作与制造",
+        "认真坚定"
+      ]
+    },
+    {
+      "id": "portrait-realistic-17",
+      "category": "realistic",
+      "title": "初晴",
+      "age": 19,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "医疗与照护",
+      "temperament": "温柔认真",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 19. A soft round adult face, light-medium skin, full natural brows, straight black hair tied in a simple ponytail. Plain turquoise V-neck nursing-style top without badge. A quiet reassuring closed-mouth smile, attentive eyes, shoulders at a small angle. Bright softly blurred white and pale green indoor background; clearly adult age nineteen.",
+      "tags": [
+        "中国人形象",
+        "19 岁",
+        "女",
+        "医疗与照护",
+        "温柔认真"
+      ]
+    },
+    {
+      "id": "portrait-realistic-18",
+      "category": "realistic",
+      "title": "济安",
+      "age": 31,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "医疗与照护",
+      "temperament": "耐心细致",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 31. An angular oval face, medium-light skin, narrow dark eyes behind charcoal rectangular glasses, neatly cropped black hair, clean-shaven. Plain white lightweight jacket over a muted teal shirt, no symbols or badge. Attentive kind expression with relaxed lips, slightly rightward pose. Soft clean white interior light.",
+      "tags": [
+        "中国人形象",
+        "31 岁",
+        "男",
+        "医疗与照护",
+        "耐心细致"
+      ]
+    },
+    {
+      "id": "portrait-realistic-19",
+      "category": "realistic",
+      "title": "坚毅",
+      "age": 26,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "公共服务",
+      "temperament": "勇敢从容",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese woman, age 26. A compact square face, medium wheat skin, strong cheekbones and straight eyebrows, very short neatly side-parted black hair. Plain olive-green structured shirt, no insignia, emblems, rank or lettering. Firm calm direct gaze, lips at rest, shoulders held upright. Soft grey-green outdoor bokeh, natural light.",
+      "tags": [
+        "中国人形象",
+        "26 岁",
+        "女",
+        "公共服务",
+        "勇敢从容"
+      ]
+    },
+    {
+      "id": "portrait-realistic-20",
+      "category": "realistic",
+      "title": "守望",
+      "age": 38,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "公共服务",
+      "temperament": "稳重温厚",
+      "prompt": "Use case: photorealistic-natural. Create ONE original square 1:1 avatar photograph of one entirely fictional Chinese adult. A natural environmental head-and-upper-chest portrait with recognizable individual character, candid editorial photography, authentic facial proportions and skin texture. Full head and hair visible, generous 10 percent top margin, all essential face features in the central 60 percent, shoulders within the frame. Suitable for a circular crop and readable at 40px. Soft directional daylight, a quiet defocused background with no readable detail. No passport-photo pose, no beauty-filter skin, no generic stock-model smile, no famous-person likeness, no text, logos, watermark, badges or collage. Subject: one entirely fictional Chinese man, age 38. A medium oval face with a broad jaw, light-medium skin, close buzz-cut black hair, clean-shaven. Simple slate-grey high-collar practical jacket without badges. Quiet composed eyes and a restrained warm smile, slight three-quarter angle left. Soft muted blue-grey outdoors background.",
+      "tags": [
+        "中国人形象",
+        "38 岁",
+        "男",
+        "公共服务",
+        "稳重温厚"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-01",
+      "category": "cartoon",
+      "title": "灵感",
+      "age": 22,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "创意与表达",
+      "temperament": "活泼俏皮",
+      "approvedSample": true,
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: a 22-year-old Chinese man, slim triangular face, slightly prominent ears, warm wheat skin, thick loose wavy black hair making an uneven lively silhouette, bold brows, narrow smiling eyes and an open asymmetric grin. His head tilts slightly to the right and one eyebrow is raised, shoulders turned at a small angle, mischievous optimistic adult creative-student energy. Coral-red crewneck under an open pale cream overshirt, no accessories. Muted pale teal solid background. Expressive and graphic, confident linework, appealing adult proportions, use lively shape exaggeration rather than a photo-like face.",
+      "tags": [
+        "中国人形象",
+        "22 岁",
+        "男",
+        "创意与表达",
+        "活泼俏皮"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-02",
+      "category": "cartoon",
+      "title": "巧思",
+      "age": 28,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "手作与制造",
+      "temperament": "亲切利落",
+      "approvedSample": true,
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: a 28-year-old Chinese woman with a sturdy round face and full cheeks, subtly deep warm tan complexion, a short black pixie haircut with an off-center fringe, clear almond eyes and a small dimpled closed-mouth smile. Her chin is slightly raised and shoulders are angled right, friendly self-assured and practical. Aubergine cotton T-shirt and a simple deep-blue canvas apron with one broad strap, no writing, tools or props. Pale warm apricot solid backdrop. Expressive adult illustration, short energetic hair silhouette, distinct round face and warm capable character; graphic shapes and visible bold ink, no childish proportions.",
+      "tags": [
+        "中国人形象",
+        "28 岁",
+        "女",
+        "手作与制造",
+        "亲切利落"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-03",
+      "category": "cartoon",
+      "title": "衡量",
+      "age": 38,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "技术与工程",
+      "temperament": "冷静沉着",
+      "approvedSample": true,
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: a 38-year-old Chinese man with a broad rectangular face, pronounced cheekbone planes and chin, medium neutral skin, precisely side-parted short black hair, thick black rectangular glasses, short neatly indicated dark stubble along the jaw. Upright posture, head turned slightly left and eyes directed toward the viewer, thoughtful mildly inquisitive raised brow, lips at rest with no forced smile. A muted deep-teal overshirt over a charcoal high-neck top, no formal tie or insignia. Clean pale cool-grey blue solid background. Clearly adult age 38, distinguished but not elderly. Bold memorable graphic silhouette, angular shape language and expressive ink lines; avoid a realistic rendered face.",
+      "tags": [
+        "中国人形象",
+        "38 岁",
+        "男",
+        "技术与工程",
+        "冷静沉着"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-04",
+      "category": "cartoon",
+      "title": "好奇",
+      "age": 18,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "学习与探索",
+      "temperament": "灵动好奇",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 18. A round adult face, warm fair skin, a short black bob with playful uneven bangs and two small simple hairpins. Bright curious almond eyes and a delighted open smile; head slightly tilted left. Pale yellow hoodie over white neckline, clean lavender background, clearly an eighteen-year-old adult. The supplied reference image is a STYLE reference only: match its ink, color-block and cel-shading treatment, but create the entirely different face, hair, pose and outfit described here. Do not copy its character identity.",
+      "tags": [
+        "中国人形象",
+        "18 岁",
+        "女",
+        "学习与探索",
+        "灵动好奇"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-05",
+      "category": "cartoon",
+      "title": "星野",
+      "age": 21,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "学习与探索",
+      "temperament": "安静好学",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 21. A slim long face, light wheat skin, flat straight dark fringe and small round black spectacles. Thoughtful attentive eyes and a shy close-mouthed smile. Muted forest-green cardigan over a cream T-shirt, shoulders angled right, pale ivory background. Distinct narrow silhouette. The supplied reference image is a STYLE reference only: match its ink, color-block and cel-shading treatment, but create the entirely different face, hair, pose and outfit described here. Do not copy its character identity.",
+      "tags": [
+        "中国人形象",
+        "21 岁",
+        "男",
+        "学习与探索",
+        "安静好学"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-06",
+      "category": "cartoon",
+      "title": "飞扬",
+      "age": 24,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "运动与户外",
+      "temperament": "明快爽朗",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 24. An athletic diamond-shaped face, sun-tanned wheat skin, sharp lively brows, long black hair in a high ponytail sweeping to one side. Joyful broad grin and confident chin-up pose. Coral sports jacket, muted sky-blue background, adult graphic proportions. The supplied reference image is a STYLE reference only: match its ink, color-block and cel-shading treatment, but create the entirely different face, hair, pose and outfit described here. Do not copy its character identity.",
+      "tags": [
+        "中国人形象",
+        "24 岁",
+        "女",
+        "运动与户外",
+        "明快爽朗"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-07",
+      "category": "cartoon",
+      "title": "自在",
+      "age": 26,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "运动与户外",
+      "temperament": "洒脱阳光",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 26. A broad oval face, warm brown Chinese skin, very short springy black curls, strong ears and nose, no facial hair. Relaxed laughing expression, shoulders turned to the left. Cream-and-olive outdoor windbreaker without logos, pale sand background.",
+      "tags": [
+        "中国人形象",
+        "26 岁",
+        "男",
+        "运动与户外",
+        "洒脱阳光"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-08",
+      "category": "cartoon",
+      "title": "妙想",
+      "age": 27,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "创意与表达",
+      "temperament": "俏皮独立",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 27. A slender triangular face, medium-light skin, short asymmetric black bob with a muted burgundy streak, pointed lively brows. Wry confident half-smile with one eyebrow raised. Deep plum loose shirt and small plain hoop earrings, pale mint background. Strong angular character silhouette.",
+      "tags": [
+        "中国人形象",
+        "27 岁",
+        "女",
+        "创意与表达",
+        "俏皮独立"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-09",
+      "category": "cartoon",
+      "title": "求索",
+      "age": 32,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "技术与工程",
+      "temperament": "专注理性",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 32. A long rectangular face, medium wheat skin, straight black hair pulled into a low bun, simple thin silver oval glasses. Concentrated alert eyes with relaxed unsmiling lips. Blue-grey technical jacket over white crewneck, three-quarter pose toward right, pale cool blue background.",
+      "tags": [
+        "中国人形象",
+        "32 岁",
+        "女",
+        "技术与工程",
+        "专注理性"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-10",
+      "category": "cartoon",
+      "title": "知衡",
+      "age": 35,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "商业与办公",
+      "temperament": "沉着自信",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 35. A broad heart-shaped face, warm medium skin, strong nose, dark shoulder-length loose curls swept behind one ear. Calm direct gaze and a small assured smile. A muted terracotta blazer over ivory blouse, slightly leftward shoulders, clean pale warm grey background.",
+      "tags": [
+        "中国人形象",
+        "35 岁",
+        "女",
+        "商业与办公",
+        "沉着自信"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-11",
+      "category": "cartoon",
+      "title": "笃行",
+      "age": 30,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "商业与办公",
+      "temperament": "自信干练",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 30. An elongated oval face, medium-light skin, strong straight eyebrows, neatly combed swept-back black hair, no beard or glasses. A self-assured relaxed smile and upright posture. Simple dark navy blazer over an open sage shirt, pale cream background.",
+      "tags": [
+        "中国人形象",
+        "30 岁",
+        "男",
+        "商业与办公",
+        "自信干练"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-12",
+      "category": "cartoon",
+      "title": "甜橙",
+      "age": 23,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "生活服务",
+      "temperament": "亲切可爱",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 23. A soft round adult face, warm fair skin, small nose and naturally full lips, a dark chin-length bob with a curved side fringe. Warm dimpled smile and kind eyes, shoulders angled right. Soft peach round-collar blouse, pale lavender background. Cute adult charm without childlike proportions or huge eyes.",
+      "tags": [
+        "中国人形象",
+        "23 岁",
+        "女",
+        "生活服务",
+        "亲切可爱"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-13",
+      "category": "cartoon",
+      "title": "暖阳",
+      "age": 25,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "生活服务",
+      "temperament": "活泼热心",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 25. A wide round face with full cheeks, medium wheat skin, very short spiky black hair and strong dark brows. Big spontaneous laughing grin, slightly tilted head and open friendly energy. Burnt-orange canvas apron over a cream T-shirt, pale sage background.",
+      "tags": [
+        "中国人形象",
+        "25 岁",
+        "男",
+        "生活服务",
+        "活泼热心"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-14",
+      "category": "cartoon",
+      "title": "向前",
+      "age": 29,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "物流与出行",
+      "temperament": "利落爽快",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 29. A square face, sun-tanned skin, small bright eyes, short black hair under a plain blue-grey cap. Confident friendly half-smile, head turned slightly right. Teal practical windbreaker with a small reflective strip but no brand, warm pale apricot background.",
+      "tags": [
+        "中国人形象",
+        "29 岁",
+        "女",
+        "物流与出行",
+        "利落爽快"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-15",
+      "category": "cartoon",
+      "title": "追光",
+      "age": 33,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "物流与出行",
+      "temperament": "乐观坚韧",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 33. A lean diamond-shaped face, warm brown Chinese skin, broad nose and short dark hair under a plain grey bicycle helmet. Easy tooth-showing smile and attentive raised brows. Muted mustard outdoor jacket with no marks, pale blue background; entire helmet inside generous head margins.",
+      "tags": [
+        "中国人形象",
+        "33 岁",
+        "男",
+        "物流与出行",
+        "乐观坚韧"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-16",
+      "category": "cartoon",
+      "title": "磨砺",
+      "age": 40,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "手作与制造",
+      "temperament": "踏实专注",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 40. A wide square face, weathered warm tan skin, bald shaved head and a short neatly outlined black beard. Calm focused eyes and a subtle close-mouthed smile. Dark indigo work shirt and a brown canvas apron, three-quarter toward left, warm cream background. Age forty, not elderly.",
+      "tags": [
+        "中国人形象",
+        "40 岁",
+        "男",
+        "手作与制造",
+        "踏实专注"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-17",
+      "category": "cartoon",
+      "title": "青岚",
+      "age": 20,
+      "ageGroup": "18-22",
+      "ageGroupLabel": "18-22 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "医疗与照护",
+      "temperament": "温柔细心",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 20. A gently oval adult face, medium-light warm skin, smooth dark hair in a low ponytail with a neat center part. Clear attentive eyes and a small reassuring smile, chin slightly lowered. Simple unmarked turquoise V-neck care-worker top, pale peach background. Youthful adult age twenty.",
+      "tags": [
+        "中国人形象",
+        "20 岁",
+        "女",
+        "医疗与照护",
+        "温柔细心"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-18",
+      "category": "cartoon",
+      "title": "澄明",
+      "age": 27,
+      "ageGroup": "23-27",
+      "ageGroupLabel": "23-27 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "医疗与照护",
+      "temperament": "耐心温和",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 27. A narrow oval face, light-medium skin, soft straight brows, slightly wavy short black hair and thin round silver glasses. Gentle warm closed-mouth smile and relaxed shoulders. Plain white light jacket over a muted blue shirt without badge, pale sage background.",
+      "tags": [
+        "中国人形象",
+        "27 岁",
+        "男",
+        "医疗与照护",
+        "耐心温和"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-19",
+      "category": "cartoon",
+      "title": "英姿",
+      "age": 34,
+      "ageGroup": "34-40",
+      "ageGroupLabel": "34-40 岁",
+      "gender": "female",
+      "genderLabel": "女",
+      "region": "asian",
+      "direction": "公共服务",
+      "temperament": "坚定从容",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese woman, age 34. A broad angular face with pronounced cheekbones, medium wheat skin, very short black side-parted hair and bold brows. Calm firm gaze with lips at rest and upright shoulders. Plain olive-green structured shirt without emblems, insignia or rank, pale blue-grey background.",
+      "tags": [
+        "中国人形象",
+        "34 岁",
+        "女",
+        "公共服务",
+        "坚定从容"
+      ]
+    },
+    {
+      "id": "portrait-cartoon-20",
+      "category": "cartoon",
+      "title": "定远",
+      "age": 31,
+      "ageGroup": "28-33",
+      "ageGroupLabel": "28-33 岁",
+      "gender": "male",
+      "genderLabel": "男",
+      "region": "asian",
+      "direction": "公共服务",
+      "temperament": "稳重可靠",
+      "prompt": "Use case: illustration-story. Create ONE original square 1:1 adult character portrait for a premium avatar library. Clearly stylized 2D hand-drawn editorial cartoon: confident expressive dark-ink outlines with varied line weight, broad clean opaque color shapes, subtle solid cel shadows, distinct character silhouette and slightly exaggerated adult facial structure. Smooth clean background; NO watercolor, NO paper texture, NO photorealism, NO 3D render, NO traced photograph, NO oversized anime eyes. One entirely fictional Chinese adult, full head and hair plus upper chest visible with generous margins; important features within central 60 percent, crop-safe as a circle and legible at 40px. A polished warm contemporary character illustration with visible personality, no text, logos, insignia, watermark, collage or surrounding objects. Subject: one entirely fictional Chinese man, age 31. A broad long face, medium tan skin, a close dark buzz cut, thick straight brows, clean-shaven. Quiet confident eyes and a restrained friendly smile. Simple slate-grey high-collar jacket without badges or insignia, shoulders three-quarter right, pale warm ivory background.",
+      "tags": [
+        "中国人形象",
+        "31 岁",
+        "男",
+        "公共服务",
+        "稳重可靠"
+      ]
+    }
+  ]
+}

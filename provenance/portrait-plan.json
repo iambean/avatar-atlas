@@ -1,0 +1,57 @@
+{
+  "status": "implemented",
+  "total": 40,
+  "styles": {
+    "realistic": 20,
+    "cartoon": 20
+  },
+  "genderPerStyle": {
+    "male": 10,
+    "female": 10
+  },
+  "primaryAppearance": "中国人形象",
+  "ageRange": [
+    18,
+    40
+  ],
+  "ageDistributionPerStyle": {
+    "18-22": 4,
+    "23-27": 6,
+    "28-33": 6,
+    "34-40": 4
+  },
+  "directions": [
+    "学习与探索",
+    "运动与户外",
+    "创意与表达",
+    "技术与工程",
+    "商业与办公",
+    "生活服务",
+    "物流与出行",
+    "手作与制造",
+    "医疗与照护",
+    "公共服务"
+  ],
+  "temperaments": [
+    "灵动俏皮",
+    "温柔亲切",
+    "沉静内敛",
+    "自信爽朗",
+    "专注严谨"
+  ],
+  "visualDirection": {
+    "realistic": "自然生活肖像，多样的五官、体态、发型、视角与表情；简洁环境和轻职业提示。",
+    "cartoon": "干净线条、明确色块、适度夸张，角色轮廓与表情有区分；不做照片水彩滤镜。"
+  },
+  "nextStep": "发布验证：人物每类二十张、男女各十张、年龄十八至四十岁。",
+  "approvedDate": "2026-10-18",
+  "sampleIds": [
+    "portrait-realistic-01",
+    "portrait-realistic-02",
+    "portrait-realistic-03",
+    "portrait-cartoon-01",
+    "portrait-cartoon-02",
+    "portrait-cartoon-03"
+  ],
+  "generationCompletedDate": "2026-10-19"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "geometry-01",
+    "title": "日与弧",
+    "category": "geometry",
+    "tags": [
+      "双色",
+      "圆弧",
+      "暖调"
+    ],
+    "palette": [
+      "#F3EBDD",
+      "#B96C50"
+    ],
+    "shapes": "<circle cx=\"512\" cy=\"355\" r=\"170\" fill=\"#B96C50\"/><path d=\"M242 790a270 270 0 0 1 540 0Z\" fill=\"#B96C50\"/>"
+  },
+  {
+    "id": "geometry-02",
+    "title": "对望",
+    "category": "geometry",
+    "tags": [
+      "三色",
+      "平衡",
+      "冷调"
+    ],
+    "palette": [
+      "#EFE9DD",
+      "#2D4952",
+      "#91AAA5"
+    ],
+    "shapes": "<path d=\"M512 252a260 260 0 0 0 0 520Z\" fill=\"#2D4952\"/><path d=\"M512 252a260 260 0 0 1 0 520Z\" fill=\"#91AAA5\"/><circle cx=\"512\" cy=\"512\" r=\"98\" fill=\"#EFE9DD\"/>",
+    "isDefault": true
+  },
+  {
+    "id": "geometry-03",
+    "title": "留白",
+    "category": "geometry",
+    "tags": [
+      "三色",
+      "方圆",
+      "静谧"
+    ],
+    "palette": [
+      "#F5F0E8",
+      "#D2C5DE",
+      "#655775"
+    ],
+    "shapes": "<rect x=\"230\" y=\"255\" width=\"420\" height=\"420\" rx=\"90\" fill=\"#D2C5DE\"/><circle cx=\"632\" cy=\"655\" r=\"165\" fill=\"#655775\"/>"
+  },
+  {
+    "id": "geometry-04",
+    "title": "秩序",
+    "category": "geometry",
+    "tags": [
+      "双色",
+      "条形",
+      "绿色"
+    ],
+    "palette": [
+      "#E9EEE5",
+      "#40665A"
+    ],
+    "shapes": "<rect x=\"250\" y=\"385\" width=\"132\" height=\"360\" rx=\"66\" fill=\"#40665A\"/><rect x=\"446\" y=\"255\" width=\"132\" height=\"490\" rx=\"66\" fill=\"#40665A\"/><rect x=\"642\" y=\"455\" width=\"132\" height=\"290\" rx=\"66\" fill=\"#40665A\"/>"
+  },
+  {
+    "id": "geometry-05",
+    "title": "回廊",
+    "category": "geometry",
+    "tags": [
+      "圆拱",
+      "三色",
+      "节奏"
+    ],
+    "palette": [
+      "#F3E8D7",
+      "#526B78",
+      "#B97858"
+    ],
+    "shapes": "<path d=\"M280 760V485a232 232 0 0 1 464 0v275\" fill=\"none\" stroke=\"#526B78\" stroke-width=\"96\"/><path d=\"M430 760V485a82 82 0 0 1 164 0v275\" fill=\"none\" stroke=\"#B97858\" stroke-width=\"70\"/>"
+  },
+  {
+    "id": "geometry-06",
+    "title": "棋遇",
+    "category": "geometry",
+    "tags": [
+      "棋盘",
+      "双色",
+      "黑白"
+    ],
+    "palette": [
+      "#F0EADD",
+      "#343C39"
+    ],
+    "shapes": "<path d=\"M272 272h160v160H272zm320 0h160v160H592zM432 432h160v160H432zM272 592h160v160H272zm320 0h160v160H592z\" fill=\"#343C39\"/>"
+  },
+  {
+    "id": "geometry-07",
+    "title": "轨迹",
+    "category": "geometry",
+    "tags": [
+      "轨道",
+      "三色",
+      "星点"
+    ],
+    "palette": [
+      "#E6E6F0",
+      "#625780",
+      "#D5A35A"
+    ],
+    "shapes": "<ellipse cx=\"512\" cy=\"512\" rx=\"270\" ry=\"140\" fill=\"none\" stroke=\"#625780\" stroke-width=\"24\" transform=\"rotate(-35 512 512)\"/><circle cx=\"512\" cy=\"512\" r=\"96\" fill=\"#D5A35A\"/><circle cx=\"736\" cy=\"354\" r=\"45\" fill=\"#625780\"/>"
+  },
+  {
+    "id": "geometry-08",
+    "title": "折阶",
+    "category": "geometry",
+    "tags": [
+      "阶梯",
+      "双色",
+      "构成"
+    ],
+    "palette": [
+      "#EEE6DE",
+      "#AC5847"
+    ],
+    "shapes": "<path d=\"M272 752V592h160V432h160V272h160v480Z\" fill=\"#AC5847\"/>"
+  },
+  {
+    "id": "geometry-09",
+    "title": "涟漪",
+    "category": "geometry",
+    "tags": [
+      "同心圆",
+      "双色",
+      "水纹"
+    ],
+    "palette": [
+      "#E1EAE5",
+      "#4E756B"
+    ],
+    "shapes": "<g fill=\"none\" stroke=\"#4E756B\" stroke-width=\"36\"><circle cx=\"512\" cy=\"512\" r=\"245\"/><circle cx=\"512\" cy=\"512\" r=\"155\"/><circle cx=\"512\" cy=\"512\" r=\"65\"/></g>"
+  },
+  {
+    "id": "geometry-10",
+    "title": "风车",
+    "category": "geometry",
+    "tags": [
+      "旋转",
+      "三色",
+      "轻快"
+    ],
+    "palette": [
+      "#F5ECD8",
+      "#C28D3D",
+      "#4D6971"
+    ],
+    "shapes": "<path d=\"M512 512 512 245 755 245Z M512 512 512 779 269 779Z\" fill=\"#C28D3D\"/><path d=\"M512 512 779 512 779 755Z M512 512 245 512 245 269Z\" fill=\"#4D6971\"/>"
+  }
+]
