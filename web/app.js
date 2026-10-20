@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-let manifest,category='all',query='',age='',gender='',direction='',asianOnly=false,selected,lastFocus,toastTimer;
+let manifest,category='all',query='',age='',gender='',direction='',selected,lastFocus,toastTimer;
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const categoryName=id=>manifest.categories.find(c=>c.id===id)?.name||id;
 const absolute=path=>new URL(path,location.origin).href;
@@ -8,9 +8,9 @@ const html=asset=>`<img src="${absolute(asset.formats.webp)}"\n     alt="${asset
 function notify(message){if($('asset-dialog').open){$('detail-feedback').textContent=message;return;}clearTimeout(toastTimer);$('toast').textContent=message;$('toast').classList.add('show');toastTimer=setTimeout(()=>$('toast').classList.remove('show'),2600);}
 async function copy(text,message='已复制'){try{await navigator.clipboard.writeText(text);}catch{const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.left='-9999px';document.body.append(area);area.select();const ok=document.execCommand('copy');area.remove();if(!ok){notify('复制未成功，请手动选择并复制地址。');return;}}notify(message);}
 function renderCategories(){const values=[{id:'all',name:'全部素材'},...manifest.categories.filter(c=>manifest.items.some(a=>a.category===c.id))];$('categories').innerHTML=values.map(c=>`<button type="button" data-category="${c.id}" aria-pressed="${category===c.id}">${escape(c.name)}<span>${c.id==='all'?manifest.items.length:manifest.items.filter(a=>a.category===c.id).length}</span></button>`).join('');}
-function render(){renderCategories();$('person-filters').hidden=!manifest.items.some(a=>['realistic','cartoon'].includes(a.category))||!['all','realistic','cartoon'].includes(category);const items=manifest.items.filter(a=>(category==='all'||a.category===category)&&(!age||a.ageGroup===age)&&(!gender||a.gender===gender)&&(!direction||a.direction===direction)&&(!asianOnly||a.region==='asian')&&(!query||[a.id,a.title,categoryName(a.category),...a.tags].join(' ').toLowerCase().includes(query)));
+function render(){renderCategories();$('person-filters').hidden=!manifest.items.some(a=>['realistic','cartoon'].includes(a.category))||!['all','realistic','cartoon'].includes(category);const items=manifest.items.filter(a=>(category==='all'||a.category===category)&&(!age||a.ageGroup===age)&&(!gender||a.gender===gender)&&(!direction||a.direction===direction)&&(!query||[a.id,a.title,categoryName(a.category),...a.tags].join(' ').toLowerCase().includes(query)));
 $('result-count').textContent=`${category==='all'?'全部素材':categoryName(category)} · ${items.length} 张`;$('empty').hidden=items.length!==0;
-$('gallery').innerHTML=items.map(a=>`<article class="asset-card"><button type="button" class="artwork" data-open="${a.id}" aria-label="查看${escape(a.title)}"><img src="${a.formats.thumbnail}" srcset="${a.formats.thumbnail} 256w, ${a.formats.webp} 512w" sizes="(min-width:950px) 240px,(min-width:650px) 30vw,45vw" alt="${escape(a.title)}，${escape(categoryName(a.category))}" width="512" height="512" loading="lazy" decoding="async">${a.isDefault?'<span class="card-default">默认推荐</span>':''}</button><div class="card-info"><div><strong>${escape(a.title)}</strong><small>${escape(categoryName(a.category))} · ${a.age?escape(a.genderLabel)+' · '+a.age+' 岁':a.formats.svg?'SVG / PNG':'PNG / WebP'}</small></div><button type="button" class="card-copy" data-copy="${a.id}" aria-label="复制${escape(a.title)}的图片链接" title="复制图片链接">⧉</button></div></article>`).join('');}
+$('gallery').innerHTML=items.map(a=>`<article class="asset-card"><button type="button" class="artwork" data-open="${a.id}" aria-label="查看${escape(a.title)}"><img src="${a.formats.thumbnail}" srcset="${a.formats.thumbnail} 256w, ${a.formats.webp} 512w" sizes="${galleryImageSizes()}" alt="${escape(a.title)}，${escape(categoryName(a.category))}" width="512" height="512" loading="lazy" decoding="async">${a.isDefault?'<span class="card-default">默认推荐</span>':''}</button><div class="card-info"><div><strong>${escape(a.title)}</strong><small>${escape(categoryName(a.category))} · ${a.age?escape(a.genderLabel)+' · '+a.age+' 岁':a.formats.svg?'SVG / PNG':'PNG / WebP'}</small></div><button type="button" class="card-copy" data-copy="${a.id}" aria-label="复制${escape(a.title)}的图片链接" title="复制图片链接">⧉</button></div></article>`).join('');}
 function renderHero(){const featured=['portrait-cartoon-01','portrait-realistic-01','object-02','landscape-01'].map(id=>manifest.items.find(a=>a.id===id)).filter(Boolean);for(const a of manifest.items){if(featured.length===4)break;if(!featured.some(x=>x.id===a.id))featured.push(a);}
 $('hero-art').innerHTML=featured.map(a=>`<div class="hero-tile"><img src="${a.formats.webp}" alt="${escape(a.title)}" width="512" height="512"></div>`).join('')+'<span class="hero-note">A little character.<br>A lot of possibilities.</span>';}
 function openAsset(id,updateUrl=true){const asset=manifest.items.find(a=>a.id===id);if(!asset){notify('没有找到这张素材。');return;}selected=asset;$('detail-feedback').textContent='';lastFocus=document.activeElement;$('detail-image').src=asset.formats.png;$('detail-image').alt=asset.title;$('asset-title').textContent=asset.title;$('asset-id').textContent=asset.id+' · v'+manifest.version;$('detail-category').textContent=categoryName(asset.category);$('default-badge').hidden=!asset.isDefault;$('detail-tags').innerHTML=asset.tags.map(t=>`<span>${escape(t)}</span>`).join('');
@@ -18,6 +18,24 @@ $('detail-description').textContent=asset.category==='realistic'?'AI 生成的�
 $('download-options').innerHTML=`<a class="button button-dark" href="${asset.formats.webp}" download="${asset.id}.webp">WebP · 512px ↓</a><a class="button" href="${asset.formats.png}" download="${asset.id}.png">PNG · 1024px ↓</a>${asset.formats.svg?`<a class="button" href="${asset.formats.svg}" download="${asset.id}.svg">SVG ↓</a>`:''}`;
 $('asset-url').value=absolute(asset.formats.webp);if(!$('asset-dialog').open)$('asset-dialog').showModal();if(updateUrl){const url=new URL(location.href);url.searchParams.set('avatar',asset.id);history.replaceState(null,'',url);}}
 function setShape(shape){document.body.dataset.shape=shape;$('shape-round').setAttribute('aria-pressed',String(shape==='round'));$('shape-square').setAttribute('aria-pressed',String(shape==='square'));if(manifest)$('default-code').textContent=html(manifest.items.find(a=>a.id===manifest.defaultAvatarId));}
+
+function galleryImageSizes(){
+  return document.body.dataset.density==='compact'
+    ? '(min-width:1101px) 150px, (min-width:951px) 145px, (min-width:751px) 155px, (min-width:541px) 160px, (min-width:360px) 30vw, 45vw'
+    : '(min-width:951px) 270px, (min-width:651px) 30vw, 45vw';
+}
+function setDensity(value){
+  const density=value==='standard'?'standard':'compact';
+  document.body.dataset.density=density;
+  $('size-compact').setAttribute('aria-pressed',String(density==='compact'));
+  $('size-standard').setAttribute('aria-pressed',String(density==='standard'));
+  document.querySelectorAll('#gallery img').forEach(img=>{img.sizes=galleryImageSizes();});
+  try{localStorage.setItem('avatar-atlas.preview-density',density);}catch{}
+}
+$('size-compact').addEventListener('click',()=>setDensity('compact'));
+$('size-standard').addEventListener('click',()=>setDensity('standard'));
+try{setDensity(localStorage.getItem('avatar-atlas.preview-density'));}catch{setDensity('compact');}
+
 $('categories').addEventListener('click',e=>{const button=e.target.closest('[data-category]');if(!button)return;category=button.dataset.category;if(!['all','realistic','cartoon'].includes(category))resetPersonFilters();render();});
 $('search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();render();});
 $('reset-search').addEventListener('click',()=>{category='all';query='';resetPersonFilters();$('search').value='';render();$('search').focus();});
@@ -26,11 +44,10 @@ $('shape-round').addEventListener('click',()=>setShape('round'));$('shape-square
 $('close-dialog').addEventListener('click',()=>$('asset-dialog').close());$('asset-dialog').addEventListener('click',e=>{if(e.target===$('asset-dialog'))$('asset-dialog').close();});$('asset-dialog').addEventListener('close',()=>{const url=new URL(location.href);url.searchParams.delete('avatar');history.replaceState(null,'',url);if(lastFocus?.isConnected)lastFocus.focus();});
 $('copy-url').addEventListener('click',()=>copy(absolute(selected.formats.webp),'图片链接已复制'));$('copy-html').addEventListener('click',()=>copy(html(selected),'HTML 已复制'));$('copy-credit').addEventListener('click',()=>copy(credit(selected),'署名文本已复制'));
 $('copy-default-html').addEventListener('click',()=>copy(html(manifest.items.find(a=>a.id===manifest.defaultAvatarId)),'默认头像 HTML 已复制'));$('copy-code').addEventListener('click',()=>copy($('default-code').textContent,'HTML 已复制'));$('copy-library-credit').addEventListener('click',()=>copy(`头像素材：Avatar Atlas，CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。来源：${manifest.baseUrl}/；如有修改，请注明。`,'图库署名已复制'));
-function resetPersonFilters(){age='';gender='';direction='';asianOnly=false;$('filter-direction').value='';$('filter-age').value='';$('filter-gender').value='';$('filter-asian').checked=false;}
+function resetPersonFilters(){age='';gender='';direction='';$('filter-direction').value='';$('filter-age').value='';$('filter-gender').value='';}
 $('filter-age').addEventListener('change',e=>{age=e.target.value;render();});
 $('filter-gender').addEventListener('change',e=>{gender=e.target.value;render();});
 $('filter-direction').addEventListener('change',e=>{direction=e.target.value;render();});
-$('filter-asian').addEventListener('change',e=>{asianOnly=e.target.checked;render();});
 try{const response=await fetch(new URL('manifest.json', document.baseURI));if(!response.ok)throw Error('manifest unavailable');manifest=await response.json();$('filter-direction').innerHTML='<option value="">全部方向</option>'+[...new Set(manifest.items.map(a=>a.direction).filter(Boolean))].map(d=>`<option value="${escape(d)}">${escape(d)}</option>`).join('');$('total-count').textContent=manifest.items.length;$('style-count').textContent=manifest.categories.filter(c=>manifest.items.some(a=>a.category===c.id)).length;renderHero();render();setShape('round');const id=new URLSearchParams(location.search).get('avatar');if(id)openAsset(id,false);}catch{ $('load-error').hidden=false;$('result-count').textContent='素材暂不可读取';}
 
 $('copy-install').addEventListener('click',()=>copy($('install-command').textContent,'安装命令已复制'));
